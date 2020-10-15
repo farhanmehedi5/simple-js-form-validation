@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        #containers {
+            margin-top: 80px;
+        }
+
+        #buttonOne {
+            float: right;
+            width: 150px;
+            font-weight: bolder;
+        }
+
+        #textOne,
+        #textFour {
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: bolder;
+            background: mediumslateblue;
+        }
+
+        .anotherTextOne {
+            background: lightgreen;
+        }
+
+        .anotherTextOnes {
+            background: red;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container" id="containers">
+        <div class="row justify-content-center bg-dark pb-5 pt-5">
+            <div class="col-md-6 ">
+                <form action="" id="formOne" style="height: 400px;padding-top: 100px;">
+
+                    <div class="input-group mb-2 mt-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">User Name</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup"
+                            placeholder="Enter Your User Name">
+                    </div>
+
+                    <p class="text-white mb-4 ml-3  d-inline-block pl-3 pr-3" id="textOne"></p>
+
+                    <div class="input-group mb-2" id="inputGroup2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">Password</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroupTwo"
+                            placeholder="Enter Your Password">
+                    </div>
+
+                    <p class="text-white ml-3 bg-success d-inline-block pl-3 pr-3 " id="textFour"></p>
+
+                    <input type="submit" class="btn btn-primary mt-4" id="buttonOne" value="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js">
+
+    </script>
+</body>
+
+</html>
